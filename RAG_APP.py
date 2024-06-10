@@ -12,7 +12,7 @@ class ImageLabel(QLabel):
         self.shape = shape
         self.setFixedSize(120, 120)  # Set fixed size for student images
         if shape == "rectangle":
-            self.setFixedSize(220, 120)  # Set fixed size for school logo
+            self.setFixedSize(240, 178)  # Set fixed size for school logo
 
     def paintEvent(self, event):
         painter = QPainter(self)
@@ -83,7 +83,7 @@ class PDFQAApp(QMainWindow):
         top_layout.addStretch()
 
         # School logo
-        logo_label = ImageLabel("./Assets/HETIC.png", shape="rectangle")
+        logo_label = ImageLabel("./Assets/llama3.jpg", shape="rectangle")
         top_layout.addWidget(logo_label, alignment=Qt.AlignRight)
 
         main_layout.addLayout(top_layout)
