@@ -1,6 +1,6 @@
 # RAG_APP
 
-<img src="./Assets/llama3.jpg">
+<img src="./Assets/llama3_interface.png">
 
 #### This is a small app that use an AI model to scan a pdf and answer the question given,
 
